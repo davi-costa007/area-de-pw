@@ -96,7 +96,7 @@ body {
   border-radius: 8px;
   transition: all 0.3s ease;
   font-size: 14px;
-  letter-spacing: 0.5px;
+ 
 }
 
 .sidebar nav a:hover {
@@ -306,7 +306,7 @@ font-size: 60px;
 }
 
 .contato-info {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .info-item {
@@ -477,11 +477,11 @@ body {
 }
 
 .meio6{
-  display: none;
+  margin-left: -50px;
 }
 
 .linha-separadora2{
-  display: none;
+  margin-top: 70%;
 }
  }
 
