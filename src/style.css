@@ -480,6 +480,10 @@ body {
   margin-left: -50px;
 }
 
+.info-item{
+  width: 325px;
+}
+
 .linha-separadora2{
   margin-top: 70%;
 }
