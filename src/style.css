@@ -480,6 +480,11 @@ body {
   margin-left: -50px;
 }
 
+.social-icons img{
+width: 35px !important;
+height: 35px !important;
+}
+
 .info-item{
   width: 325px;
 }
