@@ -383,7 +383,7 @@ font-size: 60px;
   font-size: 34px;
 }
 
-.cert{
+/*.cert{
   width: 70vw;
   height: 100vh;
   background-color:  linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -393,7 +393,43 @@ font-size: 60px;
 }
 .cert h2{
   font-size: 34px;
+}*/
+.grid{
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+
 }
+
+.certificado {
+      width: 350px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+      margin-left: 40%;
+      
+    }
+
+    .certificado:hover {
+      transform: translateY(-5px);
+    }
+
+    .content {
+      
+      padding: 15px;
+      text-align: center;
+    }
+
+    .content h3 {
+      margin: 10px 0 5px;
+    }
+
+    .content p {
+      font-size: 14px;
+      color: #555;
+    }
 
 .habit .pyton{
   width: 160px;
