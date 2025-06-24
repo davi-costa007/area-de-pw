@@ -231,10 +231,6 @@ font-size: 60px;
 
 }
 
-.meio2{
-  
-}
-
 .parte2 p{
   color: #5a6c7d;
   font-size: 21px;
@@ -419,7 +415,6 @@ font-size: 60px;
 
 .certificados-grid {
     display: grid;
-   
     gap: 30px;
     justify-items: center;
 }
@@ -609,6 +604,7 @@ body {
   padding-top: 80px;
   margin-top: 40px;
 }
+
 .skills-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -635,13 +631,23 @@ body {
   margin-left: -50px;
 }
 
-.certificado{
+.certificados-section{
   flex-direction: column;
+  margin-right: -10px;
 }
 
 .certificado-content{
   height: 600px;
-  margin-right: 5px;
+  margin-left: -340px;
+}
+
+.certificado-image{
+  width: 250px;
+  height: 150px;
+}
+
+.certificados-section p{
+  display: none;
 }
 
 .social-icons img{
