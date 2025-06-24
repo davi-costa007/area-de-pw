@@ -587,12 +587,13 @@ body {
   text-align: center;
 }
 
-.parte2, .educ3, .habit, .inter, .certificado, .meio6 {
+.parte2, .educ3, .habit, .inter, .certificados-section, .meio6 {
   width: 90vw;
   height: 100vh;
   margin-left: 5%;
   padding: 20px;
   font-size: 18px;
+  
 }
 
 .educ3 {
@@ -634,6 +635,9 @@ body {
 .certificados-section{
   flex-direction: column;
   margin-right: -10px;
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
 }
 
 .certificado-content{
